@@ -20,7 +20,7 @@ loginFormElement.addEventListener('submit', function(event) {
   if (email == expectedEmail && password == expectedPassword) {
     goToHome();
   } else {
-    // permisalan
+    // permisalan kenapatidak bisa jsdoc
     showPopUp();
   }
 });
